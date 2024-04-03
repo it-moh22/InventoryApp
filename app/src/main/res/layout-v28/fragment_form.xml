@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormFragment">
+
+    <TextView
+        android:id="@+id/HomePageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_page_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <!-- Buttons -->
+    <EditText
+        android:id="@+id/editTextNameSneaker"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textFontWeight="@integer/material_motion_duration_medium_1"
+
+        android:text="@string/name_form" />
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/price_form" />
+    <EditText
+        android:id="@+id/editTextInitialStock"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/intialInv_form" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Save Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/BackBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_btn" />
+
+            <!-- Save Button -->
+            <Button
+                android:id="@+id/SaveBtn"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/save_btn" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
