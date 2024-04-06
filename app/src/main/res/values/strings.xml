@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="home_page_title">Welcome</string>
+    <string name="form_page_title">Form Page</string>
+    <string name="add_btn">Add</string>
+    <string name="save_btn">Save</string>
+    <string name="back_btn">Back</string>
+    <string name="name_form">Sneaker Name</string>
+    <string name="price_form">40 </string>
+    <string name="intialInv_form">4</string>
+</resources>
