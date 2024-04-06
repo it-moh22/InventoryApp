@@ -61,7 +61,10 @@
                 android:id="@+id/BackBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/back_btn" />
+                android:text="@string/back_btn"
+                android:backgroundTint="@color/black"
+                />
+
 
             <!-- Save Button -->
             <Button

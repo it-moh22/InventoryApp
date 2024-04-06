@@ -26,8 +26,8 @@
         android:ems="10"
         android:inputType="text"
         android:textFontWeight="@integer/material_motion_duration_medium_1"
-
-        android:text="@string/name_form" />
+        android:text="@string/name_form"
+        tools:ignore="UnusedAttribute" />
     <EditText
         android:id="@+id/editTextPrice"
         android:layout_width="match_parent"
@@ -64,6 +64,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back_btn"
+                android:backgroundTint="@color/black"
+
                 />
 
             <!-- Save Button -->
